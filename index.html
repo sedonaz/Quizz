@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1><span>Quizz</span> Culture Général.☑︎</h1>
+    <h1><span>Quizz</span> Culture Général. ☑︎</h1>
     <div class="global-container">
       <form class="quiz-form">
         <div class="question-block">
@@ -19,16 +19,16 @@
             <input type="radio" id="Clovis" name="q1" value="a" checked>
             <label for="Clovis">Clovis</label>
           </div>
-        </div>
 
-        <div>
-          <input type="radio" id="Lincoln" name="q1" value="b">
-          <label for="Lincoln">Abraham Lincoln</label>
-        </div>
+          <div>
+            <input type="radio" id="Lincoln" name="q1" value="b">
+            <label for="Lincoln">Abraham Lincoln</label>
+          </div>
 
-        <div>
-          <input type="radio" id="Bonaparte" name="q1" value="c">
-          <label for="Bonaparte">Bonaparte</label>
+          <div>
+            <input type="radio" id="Bonaparte" name="q1" value="c">
+            <label for="Bonaparte">Bonaparte</label>
+          </div>
         </div>
 
 
@@ -78,12 +78,12 @@
           </div>
 
           <div>
-            <input type="radio" id="Bellegrade" name="q3" value="b">
+            <input type="radio" id="Bellegrade" name="q4" value="b">
             <label for="Bellegrade">Bellegrade</label>
           </div>
 
           <div>
-            <input type="radio" id="Bratislava" name="q3" value="c">
+            <input type="radio" id="Bratislava" name="q4" value="c">
             <label for="Bratislava">Bratislava</label>
           </div>
         </div>
@@ -106,8 +106,14 @@
             <label for="4,9">4,9 million</label>
           </div>
         </div>
+        <button class="submit">VALIDER<span class="check-green">&#10003;</span>
+        </button>
       </form>
-
+      <div class="result">
+        <h2>Cliquer sur <span> valider </span> pour voir le <span> résultat</span></h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
